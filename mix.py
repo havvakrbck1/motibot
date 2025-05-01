@@ -3,7 +3,7 @@ import random
 import json
 import os
 
-TOKEN = '7993297688:AAFLHpPUbssRrpHTdPiZ5Sd2uZ9BbQq0YPo'
+TOKEN = ''
 bot = telebot.TeleBot(TOKEN)
 
 DATA_FILE = 'itiraflar.json'
