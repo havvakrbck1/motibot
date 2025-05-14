@@ -1,41 +1,23 @@
-# Motibot
+```markdown
+# Motivation Bot
 
-Motivasyonel alıntılar ve ilham verici sözler sağlayan bir Telegram botu. Kullanıcılar, rastgele motivasyonel mesajlar alarak günlerine pozitif bir başlangıç yapabilirler.
+A Telegram bot that sends daily motivational quotes to users.
 
-##  Özellikler
-- Rastgele motivasyonel alıntılar ve sözler gönderir.
-- Kullanıcıların ruh halini iyileştirmeyi hedefler.
-- Basit ve kullanıcı dostu bir Telegram botu.
+## Features
+- Daily motivational quotes
+- Customizable schedule
+- Easy to use
 
-##  Kullanılan Teknolojiler
-- Python
-- Telebot (Telegram bot API)
-- random (rastgele alıntılar için)
+## Technologies Used
+- Python 3
+- Telegram Bot API
 
-##  Kurulum
+## Installation
 
-1. Projeyi klonlayın:
-
-    ```bash
-    git clone https://github.com/havvakrbck1/motibot.git
-    cd motibot
-    ```
-
-2. Gerekli Python kütüphanelerini yükleyin:
-
-    ```bash
-    pip install pyTelegramBotAPI
-    ```
-
-3. `TOKEN` değişkenini, [Telegram BotFather](https://core.telegram.org/bots#botfather) üzerinden aldığınız token ile güncelleyin.
-
-4. Botu çalıştırın:
-
-    ```bash
-    python motibot.py
-    ```
-
-##  Katkı
-Motivasyonel alıntıları çeşitlendirebilir ve daha fazla özellik ekleyebilirsiniz.
+```bash
+git clone https://github.com/havvakrbck1/motivation-bot.git
+cd motivation-bot
+pip install -r requirements.txt
+python bot.py
 
 
